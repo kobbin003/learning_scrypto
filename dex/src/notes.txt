@@ -1,0 +1,8 @@
+ADDING LIQUIDITY & MINTING LP_TOKEN : 
+
+ratioOfTokenA = amountOfTokenA / totalTokenA
+ratioOfTokenB = amountOfTokenB / totalTokenB
+
+tokenAToBetaken = totalTokenA * min(ratioOfTokenA, ratioOfTokenB)
+tokenBToBetaken = totalTokenB * min(ratioOfTokenA, ratioOfTokenB)
+lpTokensToReceive = totalLPTokens * min(ratioOfTokenA, ratioOfTokenB)
